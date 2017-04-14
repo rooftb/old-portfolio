@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <title>Tanner Roof's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<style>
+header nav .menu .contact {
+  color: #ffcc00;
+}
+</style>
+<header>
+  <nav>
+    <a href = "./index.html" class="logo" title="logo"><img src="pics/logo.png" class=logo alt="logo"></a>
+    <div class="menu">
+      <a href = "./index.html" class="works" title="Works">Works</a>
+      <a href = "./about.html" class="about" title="About">About</a>
+      <a href = "./contact.html" class="contact" title="Contact">Contact</a>
+    </div>
+  </nav>
+<br>
+  <body>
+    <div class="contact-me">
+      <div class="contact-form">
+    <h1>Contact</h1>
+    <form><p>
+      Name:
+      <input type="text" class="input-name" name="name" size="40"  onfocus="if(this.value == 'Type your first name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Type your first name'; }" value="Type your first name">
+
+      Email:
+      <input type="text" class="input-email" name="email" size="40"  onfocus="if(this.value == 'Type your email address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Type your email address'; }" value="Type your email address">
+
+      Subject:
+      <input type="text" class="input-subject" id='input-subject' name="subject" size="40" onfocus="if(this.value == 'Type your subject') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Type your subject'; }" value="Type your subject">
+
+      Message:
+      <textarea class="input-message" name="message" onfocus="if(this.value == 'Type your message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Type your message'; }" value="Type your message">Type your message</textarea>
+    </p>
+    </form>
+    <button class="submit">
+      <script type="text/javascript">
+
+var email = ('input-email');
+
+var subject = ('document.getElementById("input-subject").innerHTML');
+
+var cc = ('abc@abcmail.com');
+
+var bcc = ('abc@abcmail.com');
+
+var body = ('I am the body of the feedback that you are sending, created using JavaScript.');
+
+document.write('<a href="mailto:' + "rooftb@email.sc.edu" +
+
+'?subject=' +subject+
+
+'&cc=' +cc+
+
+'&bcc=' +bcc+
+
+'&body=' +body+
+
+'">' + "Submit" + '<'+'/a>');
+</script>
+</button></a>
+
+
+</script>
+  </div>
+</div>
+  <hr>
+  <div class="social-media">
+    <nav>
+      <a href = "https://www.linkedin.com/in/tanner-roof-17720ab6/" target="_blank"><img src="./pics/linkedin.png" class="linkedin" title="LinkedIn"></a>
+      <a href = "https://www.twitter.com/t_roof" target="_blank"><img src="./pics/twitter.gif" class="twitter" title="Twitter"></a>
+      <a href = "http://www.roofisonfire.tumblr.com" target="_blank"><img src="./pics/tumblr.png" class="tumblr" title="Tumblr"></a>
+      <a href = "https://www.last.fm/user/Mr-Internet" target="_blank"><img src="./pics/lastfm.png" class="lastfm" title="last.fm"></a>
+    </nav>
+</body>
+  <footer>
+    <div class = "footer-links">
+      <a href = "./index.html" class="works" title="Works">Works</a>
+      <a href = "./about.html" class="about" title="About">About</a>
+      <a href = "./contact.html" class="contact" title="Contact">Contact</a>
+    </div>
+      <div class="name">
+        <span>&#xA9 Tanner Roof | 2017</span>
+      </div>
+  </footer>
+  </html>
