@@ -41,7 +41,7 @@ table {
 
 @font-face {
   font-family: District Thin;
-  src: url("/districtthin.ttf") format("truetype"); }
+  src: url("//rooftb.github.io/bahama_bills/districtthin.ttf") format("truetype"); }
 @font-face {
   font-family: Palm Beach;
   src: url("/palmbeach.ttf") format("truetype"); }
