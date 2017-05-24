@@ -84,7 +84,7 @@ table {
     opacity: 1;
     -ms-transform: translate(0px, 0px); } }
 body {
-  background-image: url(/IMG/background.jpg);
+  background-image: url(IMG/background.jpg);
   background-position: center;
   background-attachment: fixed;
   max-width: inherit; }
