@@ -1,0 +1,69 @@
+@import 'reset';
+
+@import 'variables';
+
+@import 'mixins';
+
+body {
+  font-family: Montserrat;
+  font-weight: 700;
+  //background-image: url("../imgs/bg3.jpg");
+  //background-position: top;
+  //background-repeat: no-repeat;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, gray); /* Standard syntax */
+}
+
+.container-fluid {
+  font-size: 3rem;
+}
+
+.logo {
+  font-family: 'Damion', cursive;
+  font-size: 6rem;
+  color: #fff;
+  margin: 1.5rem 0;
+    &:hover {
+    text-decoration: none;
+    color:#fff;
+    }
+}
+
+.nav-bar {
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  line-height: 3rem;
+  a {
+    color: #ffcc00;
+  }
+}
+
+.thumbnail {
+  margin: 1rem 3rem;
+}
+
+.newest-products {
+  font-size: 3rem;
+  margin: 2rem 3rem;
+  color: #fff;
+  font-style: italic;
+}
+
+.caption {
+  font-size: 1.25rem;
+}
+
+.model {
+  display: inline;
+}
+
+.price {
+  display: inline;
+  float:right;
+  clear:both;
+}
