@@ -2,3 +2,7 @@
 .fa {
 padding-right: 1rem;
 }
+
+.box p {
+  line-height: 1rem;
+}
