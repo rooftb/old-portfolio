@@ -43,4 +43,8 @@ body {
   font-family: Times New Roman;
   font-size: 12px; }
 
+h4 {
+  justify-content: center;
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
