@@ -1,5 +1,8 @@
 body {
   font-family: Times New Roman;
+  justify-content: center;
+  line-height: 1em;
+  font-size: 1em;
 }
 
 h4 {
