@@ -13,3 +13,8 @@ h4 {
 p {
     text-indent: 50px;
 }
+
+img {
+  height:40%;
+  width:40%;
+}
