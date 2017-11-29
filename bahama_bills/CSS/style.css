@@ -97,7 +97,7 @@ i, a {
   cursor: pointer; }
 
 .wrapper {
-  margin: 0 6rem;
+  margin: 0 auto;
   max-width: 1280px; }
 
 .icons i {
