@@ -86,8 +86,7 @@ table {
 body {
   background-image: url(../img/background.jpg);
   background-position: center;
-  background-attachment: fixed;
-  max-width: inherit; }
+  background-attachment: fixed; }
 
 span {
   font-size: 18px;
@@ -97,8 +96,7 @@ i, a {
   cursor: pointer; }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1280px; }
+  margin: 0 6rem; }
 
 .icons i {
   padding: 1.32rem;
@@ -137,13 +135,13 @@ i, a {
   line-height: 3rem;
   clear: both; }
 
-footer a, .store-menu a {
+.store-menu a {
   font-family: Bitter;
   font-size: 1.1rem;
   color: #fff;
   text-decoration: none;
   text-shadow: 1px 1px #5CA4D7; }
-  footer a:hover, .store-menu a:hover {
+  .store-menu a:hover {
     color: #5CA4D7; }
 
 .store-menu-a a {
@@ -176,79 +174,18 @@ hr {
 .menucart {
   fill: #5CA4D7; }
 
-.top-container {
-  margin: 3rem auto;
-  display: inline;
-  width: 100%;
-  height: auto; }
-
-.bottom-container {
-  margin: 3rem auto;
-  display: inline;
-  width: 100%;
-  height: auto; }
-
-.shirt1-container {
-  float: left;
-  width: 367px;
-  padding: 3rem; }
-
-.shirt2-container {
-  float: right;
-  clear: right;
-  width: 367px;
-  padding: 3rem; }
-
-.shirt3-container {
-  float: left;
-  width: 367px;
-  padding: 3rem; }
-
-.shirt4-container {
-  float: right;
-  clear: right;
-  width: 367px;
-  padding: 3rem; }
+.save-the-trees {
+  margin-top: 3rem; }
 
 .shirt1 {
-  height: 318px;
-  width: 320px;
-  border: 3px solid #5CA4D7;
-  padding: 1rem;
-  background-color: white;
   background-image: url(../img/shirt_blue.jpg);
+  background-color: #ffffff;
   background-repeat: no-repeat;
-  background-position: center; }
-
-.shirt2 {
+  background-position: center;
   height: 318px;
   width: 320px;
   border: 3px solid #5CA4D7;
-  padding: 1rem;
-  background-color: white;
-  background-image: url(../img/shirt_pink.jpg);
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.shirt3 {
-  height: 318px;
-  width: 320px;
-  border: 3px solid #5CA4D7;
-  padding: 1rem;
-  background-color: white;
-  background-image: url(../img/shirt_yellow.jpg);
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.shirt4 {
-  height: 318px;
-  width: 320px;
-  border: 3px solid #5CA4D7;
-  padding: 1rem;
-  background-color: white;
-  background-image: url(../img/shirt_green.jpg);
-  background-repeat: no-repeat;
-  background-position: center; }
+  padding: 1rem; }
 
 .back {
   background-image: url(../img/shirt_blue_back.png);
@@ -257,14 +194,13 @@ hr {
   transform-style: preserve-3d; }
 
 .icons {
-  width: 100%;
-  display: inline-block; }
+  width: auto; }
 
-#refresh, #refresh-2, #refresh-3, #refresh-4 {
+#refresh {
   border-left: 3px solid #5CA4D7;
   border-right: 3px solid #5CA4D7; }
 
-#heart, #heart-2, #heart-3, #heart-4, #square, #square-2, #square-3, #square-4, #cart, #cart-2, #cart-3, #cart-4, #up, #up-2, #up-3, #up-4 {
+#heart, #square, #cart, #up {
   border-right: 3px solid #5CA4D7;
   margin-left: -.15rem; }
 
@@ -273,27 +209,21 @@ hr {
   width: inherit;
   width: 100%;
   font-family: District Thin;
-  font-weight: bold;
   color: #fff;
   text-shadow: 1px 1px #5CA4D7;
-  line-height: 2rem;
-  margin: 0 .5rem; }
+  line-height: 2rem; }
 
-.price {
+.shirt1-info span:last-child {
   float: right;
-  font-weight: bold;
-  margin: 0 .5rem; }
-
-.fa-usd {
-  cursor: text; }
+  width: 68%;
+  margin: 0 auto; }
 
 #flip {
   float: right;
   margin: -1rem;
-  padding: .5rem;
-  z-index: 2; }
+  padding: .5rem; }
 
-#colors, #colors-2, #colors-3, #colors-4 {
+#colors {
   background-color: #f9f9f9;
   width: 75px;
   height: 75px;
@@ -355,9 +285,9 @@ hr {
   display: block;
   clear: both; }
 
-#sizes, #sizes-2, #sizes-3, #sizes-4 {
+#sizes {
   margin-top: 8.25rem;
-  margin-left: 6.6rem;
+  margin-left: 6.7rem;
   background-color: #fff;
   width: 50px;
   height: 160px;
@@ -387,7 +317,7 @@ hr {
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards;
   /*IE 10+*/ }
-  #sizes p, #sizes-2 p, #sizes-3 p, #sizes-4 p {
+  #sizes p {
     font-size: .5rem;
     line-height: 2rem;
     text-align: center;
@@ -410,15 +340,4 @@ hr {
   clear: both;
   margin-left: .8rem; }
 
-.store-menu-c {
-  float: right;
-  margin-top: 1rem; }
-
-footer a {
-  padding: 2rem;
-  font-size: .85rem; }
-
-footer span {
-  float: right; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styleWORKING.css.map */
